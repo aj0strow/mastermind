@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- German Version -->
+
+<resources>
+
+    <!-- Universal Strings -->
+    <string name="app_name">Vorlagenverstand</string>
+    <string name="developer_credit">AJ, Jacob, 2012</string>
+    <string name="shared_preferences">MastermindSharedPreferences</string>
+    
+    <!-- Main Menu Activity -->
+    <string name="ad_loading">Ad Geladen...</string>
+    <string name="avg_na">Durchs = kein</string>
+    <string name="avg">Durchs</string>
+    <string name="resume">Fortsetzen</string>
+    <string name="main_menu_button">Neuen Typs (+)</string>
+    
+    <!-- Preliminary Types Names -->
+    <string name="easy">Anfänger</string>
+    <string name="medium">Klassiker</string>
+    <string name="hard">Schwierig</string>
+            
+    <!-- Create New Dialog -->
+    <string name="createDialog_title">Neuen Typs</string>
+    <string name="createDialog_name">Name:</string>
+    <string name="createDialog_holes">Löcher:</string>
+    <string name="createDialog_colors">Farben:</string>
+    <string name="createDialog_submit">Schaffen</string>
+    <string name="createDialog_errorMessage">Bitte füllen Sie alle Felder aus.</string>
+    <string name="createDialog_errorTooLong">Bitte wählen Sie einen Namen weniger als 25 Zeichen lang sein.</string>
+    <string-array name="createDialog_numbers">
+        <item>Drei</item>
+        <item>Vier</item>
+        <item>Fünf</item>
+    </string-array>
+    
+    <!-- Option Dialog -->
+    <string name="optinosDialog_title">Optionen</string>
+    <string name="optionsDialog_description">Löschen Sie diese Spielart oder Zurücksetzen des durchschnittliche Anzahl von Vermutungen.</string>
+    <string name="optionsDialog_avgReset">Reset Durchschnitt</string>
+    <string name="optionsDialog_delete">Löschen Typ</string>
+    <string name="optionsDialog_cancel">Kündigen</string>
+    
+    <!-- Game Activity -->
+    <string name="game_colorErrorMessage">Bitte wählen Sie zunächst eine Farbe aus.</string>
+    <string name="game_guessErrorMessage">Bitte treffen Sie eine komplette erraten.</string>
+    <string name="game_win">SIEG!</string>
+    <string name="game_guessButton">ERRATEN</string>
+    
+    <!-- Win Dialog -->
+    <string name="winDialog_title">Sie Gewinnen!</string>
+    <string name="winDialog_messageStart">Sie ahnen die richtige Kombination Nach dem Versuch</string>
+    <string name="winDialog_messageEnd">mal.</string>
+    <string name="winDialog_description">Schauen Sie sich Ihr Spiel Analytik, oder kehren Sie zum Hauptmenü, um wieder zu spielen. Sie können zurück drücken, um Kehren Sie zum Menü, nachdem Sie fertig sind.</string>
+    <string name="winDialog_analysis">Siehe Analyse</string>
+    <string name="winDialog_mainMenu">Hauptmenü</string>
+        
+</resources>

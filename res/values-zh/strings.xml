@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Chinese (Simplified) Version -->
+
+<resources>
+
+    <!-- Universal Strings -->
+    <string name="app_name">主人的心思</string>
+    <string name="developer_credit">AJ, Jacob, 2012</string>
+    <string name="shared_preferences">MastermindSharedPreferences</string>
+    
+    <!-- Main Menu Activity -->
+    <string name="ad_loading">广告载入中...</string>
+    <string name="avg_na">平均 = 没有</string>
+    <string name="avg">平均</string>
+    <string name="resume">继续</string>
+    <string name="main_menu_button">新类型 (+)</string>
+    
+    <!-- Preliminary Types Names -->
+    <string name="easy">初学者</string>
+    <string name="medium">经典的</string>
+    <string name="hard">很难</string>
+            
+    <!-- Create New Dialog -->
+    <string name="createDialog_title">新类型</string>
+    <string name="createDialog_name">名称:</string>
+    <string name="createDialog_holes">孔数:</string>
+    <string name="createDialog_colors">颜色数:</string>
+    <string name="createDialog_submit">创建</string>
+    <string name="createDialog_errorMessage">请填写所有字段。</string>
+    <string name="createDialog_errorTooLong">请选择一个名称少于25个字符长。</string>
+    <string-array name="createDialog_numbers">
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+    </string-array>
+    
+    <!-- Option Dialog -->
+    <string name="optinosDialog_title">选项</string>
+    <string name="optionsDialog_description">删除这个游戏类型，或复位尝试次数平均金额。</string>
+    <string name="optionsDialog_avgReset">复位平均</string>
+    <string name="optionsDialog_delete">删除类型</string>
+    <string name="optionsDialog_cancel">取消</string>
+    
+    <!-- Game Activity -->
+    <string name="game_colorErrorMessage">请首先选择一种颜色。</string>
+    <string name="game_guessErrorMessage">请输入完整的猜。</string>
+    <string name="game_win">赢！</string>
+    <string name="game_guessButton">输入猜</string>
+    
+    <!-- Win Dialog -->
+    <string name="winDialog_title">你赢了！</string>
+    <string name="winDialog_messageStart">你猜对</string>
+    <string name="winDialog_messageEnd">次尝试后的正确的组合。</string>
+    <string name="winDialog_description">看看你的游戏的分析，或返回到主菜单，再次发挥。您可以按返回菜单后，查看完。</string>
+    <string name="winDialog_analysis">看到分析</string>
+    <string name="winDialog_mainMenu">主菜单</string>
+        
+</resources>

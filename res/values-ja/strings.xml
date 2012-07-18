@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Japanese Version -->
+
+<resources>
+
+    <!-- Universal Strings -->
+    <string name="app_name">マスターマインド</string>
+    <string name="developer_credit">AJ, Jacob, 2012</string>
+    <string name="shared_preferences">MastermindSharedPreferences</string>
+    
+    <!-- Main Menu Activity -->
+    <string name="ad_loading">広告のローディング...</string>
+    <string name="avg_na">平均 = なし</string>
+    <string name="avg">平均</string>
+    <string name="resume">再開する</string>
+    <string name="main_menu_button">新タイプ (+)</string>
+    
+    <!-- Preliminary Types Names -->
+    <string name="easy">初心者</string>
+    <string name="medium">クラシック</string>
+    <string name="hard">難しく</string>
+            
+    <!-- Create New Dialog -->
+    <string name="createDialog_title">新タイプ</string>
+    <string name="createDialog_name">名前:</string>
+    <string name="createDialog_holes">穴:</string>
+    <string name="createDialog_colors">カラー:</string>
+    <string name="createDialog_submit">作成する</string>
+    <string name="createDialog_errorMessage">すべてのフィールドにご記入ください。</string>
+    <string name="createDialog_errorTooLong">25文字より短い名前を選択してください。</string>
+    <string-array name="createDialog_numbers">
+        <item>三つ</item>
+        <item>四つ</item>
+        <item>五つ</item>
+    </string-array>
+        
+    <!-- Option Dialog -->
+    <string name="optinosDialog_title">オプション</string>
+    <string name="optionsDialog_description">このゲームのタイプを削除するか、または試行の平均値をリセットします。</string>
+    <string name="optionsDialog_avgReset">平均をリセットする</string>
+    <string name="optionsDialog_delete">タイプを削除する</string>
+    <string name="optionsDialog_cancel">キャンセル</string>
+    
+    <!-- Game Activity -->
+    <string name="game_colorErrorMessage">最初の色をお選びください。</string>
+    <string name="game_guessErrorMessage">完全な推測をしてください。</string>
+    <string name="game_win">勝つ！</string>
+    <string name="game_guessButton">推測</string>
+    
+    <!-- Win Dialog -->
+    <string name="winDialog_title">あなたの勝ち！</string>
+    <string name="winDialog_messageStart">あなたは,</string>
+    <string name="winDialog_messageEnd">回の試行後に、正しい組み合わせを推測。</string>
+    <string name="winDialog_description">あなたのゲームの分析を見て、または再び再生するメインメニューに戻ります。あなたは表示が完了した後、メニューに戻って戻って押すことができます。</string>
+    <string name="winDialog_analysis">分析を参照し</string>
+    <string name="winDialog_mainMenu">メインメニュー</string>
+        
+</resources>

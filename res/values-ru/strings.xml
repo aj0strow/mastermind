@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Russian Version -->
+
+<resources>
+
+    <!-- Universal Strings -->
+    <string name="app_name">вдохновитель</string>
+    <string name="developer_credit">AJ, Jacob, 2012</string>
+    <string name="shared_preferences">MastermindSharedPreferences</string>
+    
+    <!-- Main Menu Activity -->
+    <string name="ad_loading">объявление загрузка...</string>
+    <string name="avg_na">средний = ни</string>
+    <string name="avg">средний</string>
+    <string name="resume">продолжать</string>
+    <string name="main_menu_button">нового типа (+)</string>
+    
+    <!-- Preliminary Types Names -->
+    <string name="easy">начинающий</string>
+    <string name="medium">оригинал</string>
+    <string name="hard">трудный</string>
+            
+    <!-- Create New Dialog -->
+    <string name="createDialog_title">нового типа</string>
+    <string name="createDialog_name">имя:</string>
+    <string name="createDialog_holes">отверстий:</string>
+    <string name="createDialog_colors">цвета:</string>
+    <string name="createDialog_submit">создавать</string>
+    <string name="createDialog_errorMessage">Пожалуйста, заполните все поля.</string>
+    <string name="createDialog_errorTooLong">Пожалуйста, выберите имя короче 25 символов в длину.</string>
+    <string-array name="createDialog_numbers">
+        <item>три</item>
+        <item>четыре</item>
+        <item>пять</item>
+    </string-array>
+        
+    <!-- Option Dialog -->
+    <string name="optinosDialog_title">опции</string>
+    <string name="optionsDialog_description">Удалите этот тип игры или сброса среднее количество догадок.</string>
+    <string name="optionsDialog_avgReset">сбросить среднего</string>
+    <string name="optionsDialog_delete">удалить тип</string>
+    <string name="optionsDialog_cancel">отменить</string>
+    
+    <!-- Game Activity -->
+    <string name="game_colorErrorMessage">Пожалуйста, выберите цвет в первую очередь.</string>
+    <string name="game_guessErrorMessage">Пожалуйста, сделайте полный догадываться.</string>
+    <string name="game_win">ПОБЕДИ!</string>
+    <string name="game_guessButton">догадывать</string>
+    
+    <!-- Win Dialog -->
+    <string name="winDialog_title">Вы выиграете!</string>
+    <string name="winDialog_messageStart">Вы уже догадались правильную комбинацию после</string>
+    <string name="winDialog_messageEnd">попыток.</string>
+    <string name="winDialog_description">Посмотрите на свою аналитику игре, или вернуться в главное меню, чтобы играть дальше. Вы можете нажать кнопку Назад для возврата в меню после завершения просмотра.</string>
+    <string name="winDialog_analysis">см. анали</string>
+    <string name="winDialog_mainMenu">Главное меню</string>
+        
+</resources>

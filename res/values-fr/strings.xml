@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- French Version -->
+
+<resources>
+
+    <!-- Universal Strings -->
+    <string name="app_name">Master Mind</string>
+    <string name="developer_credit">AJ, Jacob, 2012</string>
+    <string name="shared_preferences">MastermindSharedPreferences</string>
+    
+    <!-- Main Menu Activity -->
+    <string name="ad_loading">Chargement Ad...</string>
+    <string name="avg_na">Moy = rien</string>
+    <string name="avg">Moy</string>
+    <string name="resume">Reprendre</string>
+    <string name="main_menu_button">Nouveau Type (+)</string>
+    
+    <!-- Preliminary Types Names -->
+    <string name="easy">Débutant</string>
+    <string name="medium">Classic</string>
+    <string name="hard">Avancés</string>
+            
+    <!-- Create New Dialog -->
+    <string name="createDialog_title">Nouveau Type</string>
+    <string name="createDialog_name">Nom:</string>
+    <string name="createDialog_holes">Trous:</string>
+    <string name="createDialog_colors">Couleurs:</string>
+    <string name="createDialog_submit">Créer Des</string>
+    <string name="createDialog_errorMessage">S\'il vous plaît remplir tous les champs.</string>
+    <string name="createDialog_errorTooLong">S\'il vous plaît choisir un nom de moins de 25 caractères de long.</string>
+    <string-array name="createDialog_numbers">
+        <item>Trois</item>
+        <item>Quatre</item>
+        <item>Cinq</item>
+    </string-array>
+        
+    <!-- Option Dialog -->
+    <string name="optinosDialog_title">Options</string>
+    <string name="optionsDialog_description">Supprimer ce type de jeu ou de réinitialiser le devine moyenne.</string>
+    <string name="optionsDialog_avgReset">Réinitialiser la Moy</string>
+    <string name="optionsDialog_delete">Supprimer Type</string>
+    <string name="optionsDialog_cancel">Annuler</string>
+    
+    <!-- Game Activity -->
+    <string name="game_colorErrorMessage">S\'il vous plaît choisir une couleur d\'abord.</string>
+    <string name="game_guessErrorMessage">S\'il vous plaît entrer de deviner complète.</string>
+    <string name="game_win">GAGNER!</string>
+    <string name="game_guessButton">deviner</string>
+    
+    <!-- Win Dialog -->
+    <string name="winDialog_title">Vous Gagnez!</string>
+    <string name="winDialog_messageStart">Vous l\'avez deviné la bonne combinaison, après</string>
+    <string name="winDialog_messageEnd">essais.</string>
+    <string name="winDialog_description">Regardez votre analyse de jeu, ou retourner au menu principal de jouer à nouveau. Vous pouvez appuyer sur Back pour revenir au menu après que vous avez terminé de consulter.</string>
+    <string name="winDialog_analysis">Voir Analyse</string>
+    <string name="winDialog_mainMenu">Menu Principal</string>
+        
+</resources>

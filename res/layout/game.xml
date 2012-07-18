@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+        
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        
+        <LinearLayout android:id="@+id/container" 
+            android:orientation="vertical"
+            android:layout_width="fill_parent" android:layout_height="80dp"
+            android:layout_alignParentBottom="true" android:layout_marginTop="5dp">
+            
+            <View android:layout_width="fill_parent" android:layout_height="10dp" android:background="@drawable/bar"/>
+        
+        	<LinearLayout android:id="@+id/color_selector"  
+            	android:layout_height="60dp" android:layout_width="fill_parent" android:orientation="horizontal"
+        	/>
+        
+            <View android:layout_width="fill_parent" android:layout_height="10dp" android:background="@drawable/bar"/>
+        	
+        </LinearLayout>
+                             
+        <ScrollView android:id="@+id/scroller"
+            android:layout_above="@id/container"
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+            
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                android:orientation="vertical" >
+            
+            	<LinearLayout android:id="@+id/game_area" android:layout_marginTop="15dp"
+                	android:layout_width="match_parent" android:layout_height="wrap_content" 
+                	android:orientation="vertical" android:layout_gravity="center_vertical" >
+                
+            	</LinearLayout>
+            
+            </LinearLayout>
+            
+        </ScrollView>
+        
+    </RelativeLayout>    
+        
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" 
+    android:orientation="vertical">
+    
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textSize="24dp" android:gravity="center_horizontal" android:text="@string/createDialog_title"  
+        android:layout_marginBottom="8dp" android:layout_marginTop="3dp"/>
+    
+    <View android:layout_width="fill_parent" android:layout_height="1px" 
+        android:background="#C0C0C0"
+        android:layout_marginBottom="18dp" />
+    
+    <LinearLayout android:padding="5dp" android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" 
+	        android:orientation="horizontal" android:layout_marginBottom="10dp">
+	        
+	        <TextView android:text="@string/createDialog_name"
+	            android:layout_gravity="center_vertical"
+	            android:layout_width="wrap_content" android:layout_height="wrap_content" 
+	            android:textSize="18dp" android:layout_marginRight="10dp"
+	        />
+	        
+	        <EditText  android:id="@+id/dialog_name" 
+	            android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout android:id="@+id/dialog_holes"
+	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+	        android:orientation="horizontal" android:layout_marginBottom="10dp">
+	        
+	        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+	            android:text="@string/createDialog_holes" android:layout_gravity="center_vertical"
+	            android:textSize="18dp" android:layout_marginRight="10dp"
+	        />
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout android:id="@+id/dialog_colors"
+	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+	        android:orientation="horizontal" android:layout_marginBottom="15dp">
+	        
+	        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/createDialog_colors"
+	            android:textSize="18dp" android:layout_marginRight="10dp" android:layout_gravity="center_vertical"
+	        />
+	        
+	    </LinearLayout>
+	    
+	     <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+	        
+	        <View android:layout_width="0dp" android:layout_height="1px" android:layout_weight="1" />
+	         
+	        <Button android:id="@+id/dialog_submit" 
+	            android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="2"
+	            android:background="@drawable/appbutton_gray_selector"
+	            android:text="@string/createDialog_submit" android:textSize="24dp" />
+	        
+	        <View android:layout_width="0dp" android:layout_height="1px" android:layout_weight="1" />
+	                        
+	    </LinearLayout>
+
+    </LinearLayout>
+            
+</LinearLayout>
+

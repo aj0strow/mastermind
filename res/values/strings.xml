@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Original English Version -->
+
+<resources>
+
+    <!-- Universal Strings -->
+    <string name="app_name">Mastermind</string>
+    <string name="developer_credit">AJ, Jacob, 2012</string>
+    <string name="shared_preferences">MastermindSharedPreferences</string>
+    
+    <!-- Main Menu Activity -->
+    <string name="ad_loading">Ad Loading...</string>
+    <string name="avg_na">Avg = n/a</string>
+    <string name="avg">Avg</string>
+    <string name="resume">Resume</string>
+    <string name="main_menu_button">New Type (+)</string>
+    
+    <!-- Preliminary Types Names -->
+    <string name="easy">Beginner</string>
+    <string name="medium">Classic</string>
+    <string name="hard">Difficult</string>
+            
+    <!-- Create New Dialog -->
+    <string name="createDialog_title">New Type</string>
+    <string name="createDialog_name">Name:</string>
+    <string name="createDialog_holes">Holes:</string>
+    <string name="createDialog_colors">Colors:</string>
+    <string name="createDialog_submit">Create</string>
+    <string name="createDialog_errorMessage">Please fill out all the fields.</string>
+    <string name="createDialog_errorTooLong">Please choose a name less than 25 characters long.</string>
+    <string-array name="createDialog_numbers">
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+    
+    <!-- Option Dialog -->
+    <string name="optionsDialog_title">Options</string>
+    <string name="optionsDialog_description">Delete this game type or reset the average amount of guesses.</string>
+    <string name="optionsDialog_avgReset">Reset Average</string>
+    <string name="optionsDialog_delete">Delete Type</string>
+    <string name="optionsDialog_cancel">Cancel</string>
+    
+    <!-- Game Activity -->
+    <string name="game_colorErrorMessage">Please choose a color first.</string>
+    <string name="game_guessErrorMessage">Please make a complete guess.</string>
+    <string name="game_win">WIN!</string>
+    <string name="game_guessButton">GUESS</string>
+    
+    <!-- Win Dialog -->
+    <string name="winDialog_title">You Won!</string>
+    <string name="winDialog_messageStart">You guessed the correct combination after</string>
+    <string name="winDialog_messageEnd">tries.</string>
+    <string name="winDialog_description">Check out your game analytics, or return to the main menu to play again. You can press back to return to the menu after you are finished viewing.</string>
+    <string name="winDialog_analysis">See Analysis</string>
+    <string name="winDialog_mainMenu">Main Menu</string>
+        
+</resources>

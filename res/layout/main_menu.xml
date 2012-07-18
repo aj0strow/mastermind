@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <RelativeLayout android:id="@+id/ad_holder"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:paddingTop="3dp" android:paddingBottom="3dp"
+        android:background="@android:color/black"
+        >
+        
+        <!-- The user sees the message until the AdView loads. -->
+        <TextView android:id="@+id/ad_message" android:text="@string/ad_loading"
+            android:layout_width="fill_parent" android:layout_height="50dp" android:gravity="center"
+            />
+
+        <com.google.ads.AdView android:id="@+id/adView"
+            android:layout_width="wrap_content" 
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            
+            ads:adUnitId="a14edad7125e04f"
+            ads:adSize="BANNER"
+            ads:testDevices="TEST_EMULATOR"
+            ads:loadAdOnCreate="true" 
+        />
+                        
+    </RelativeLayout>
+        
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+                
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+        
+            <View android:layout_width="wrap_content" android:layout_height="15dp" />
+            
+        	<LinearLayout android:id="@+id/main_menu_parent" 
+        		android:layout_width="fill_parent" android:layout_height="wrap_content" 
+        		android:orientation="vertical" 
+        	/>
+        	
+        	<LinearLayout 
+        	    android:layout_width="fill_parent" android:layout_height="wrap_content" 
+        	    android:orientation="horizontal" android:layout_marginBottom="20dp">
+
+        	    <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+
+        	    <Button android:id="@+id/createNewType" android:text="@string/main_menu_button"
+        	        android:textSize="20dp" android:background="@drawable/appbutton_gray_selector"
+        	        android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="4"
+        	    />
+
+        	    <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+
+        	</LinearLayout>
+        	
+        	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/developer_credit" 
+        	    android:gravity="right" android:layout_marginRight="10dp" android:layout_marginBottom="8dp" />
+        	    
+ 
+        </LinearLayout>
+        
+	</ScrollView>
+	            
+</LinearLayout>

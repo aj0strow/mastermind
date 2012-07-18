@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Spanish Version -->
+
+<resources>
+
+    <!-- Universal Strings -->
+    <string name="app_name">Maestro de Mente</string>
+    <string name="developer_credit">AJ, Jacob, 2012</string>
+    <string name="shared_preferences">MastermindSharedPreferences</string>
+    
+    <!-- Main Menu Activity -->
+    <string name="ad_loading">Anuncio de carga...</string>
+    <string name="avg_na">Media = nada</string>
+    <string name="avg">Media</string>
+    <string name="resume">Conitnuar</string>
+    <string name="main_menu_button">Nueva Tipo (+)</string>
+    
+    <!-- Preliminary Types Names -->
+    <string name="easy">Principiante</string>
+    <string name="medium">Clásico</string>
+    <string name="hard">Difícil</string>
+            
+    <!-- Create New Dialog -->
+    <string name="createDialog_title">Nueva Tipo</string>
+    <string name="createDialog_name">Nombre:</string>
+    <string name="createDialog_holes">Agujeros:</string>
+    <string name="createDialog_colors">Colores:</string>
+    <string name="createDialog_submit">Crear</string>
+    <string name="createDialog_errorMessage">Por favor, rellene todos los campos.</string>
+    <string name="createDialog_errorTooLong">Por favor, elija un nombre de menos de 25 caracteres de longitud.</string>
+    <string-array name="createDialog_numbers">
+        <item>Tres</item>
+        <item>Cuatro</item>
+        <item>Cinco</item>
+    </string-array>
+    
+    <!-- Option Dialog -->
+    <string name="optinosDialog_title">Opciones</string>
+    <string name="optionsDialog_description">Eliminar este tipo de juego o restablecer el importe medio de conjeturas.</string>
+    <string name="optionsDialog_avgReset">Reinicio Promedio</string>
+    <string name="optionsDialog_delete">Eliminar el Tipo</string>
+    <string name="optionsDialog_cancel">Cancelar</string>
+    
+    <!-- Game Activity -->
+    <string name="game_colorErrorMessage">Por favor, elija un color en primer lugar.</string>
+    <string name="game_guessErrorMessage">Por favor, hacer una adivinar completa.</string>
+    <string name="game_win">¡GANAR!</string>
+    <string name="game_guessButton">ADIVINAR</string>
+    
+    <!-- Win Dialog -->
+    <string name="winDialog_title">¡Tú Ganas!</string>
+    <string name="winDialog_messageStart">Lo has adivinado la combinación correcta después de</string>
+    <string name="winDialog_messageEnd">intentos.</string>
+    <string name="winDialog_description">Echa un vistazo a su análisis del juego, o volver al menú principal para volver a jugar. Usted puede presionar espalda para volver al menú después de que termine de ver.</string>
+    <string name="winDialog_analysis">Ver Análisis</string>
+    <string name="winDialog_mainMenu">Menú Principal</string>
+        
+</resources>

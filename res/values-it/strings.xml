@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Italian Version -->
+
+<resources>
+
+    <!-- Universal Strings -->
+    <string name="app_name">Master Mind</string>
+    <string name="developer_credit">AJ, Jacob, 2012</string>
+    <string name="shared_preferences">MastermindSharedPreferences</string>
+    
+    <!-- Main Menu Activity -->
+    <string name="ad_loading">Annuncio di Carico...</string>
+    <string name="avg_na">Medi = non</string>
+    <string name="avg">Medi</string>
+    <string name="resume">Riprendere</string>
+    <string name="main_menu_button">Nuovo Tipo (+)</string>
+    
+    <!-- Preliminary Types Names -->
+    <string name="easy">Principiante</string>
+    <string name="medium">Classico</string>
+    <string name="hard">Difficile</string>
+            
+    <!-- Create New Dialog -->
+    <string name="createDialog_title">Nuovo Tipo</string>
+    <string name="createDialog_name">Nome:</string>
+    <string name="createDialog_holes">Fori:</string>
+    <string name="createDialog_colors">Colori:</string>
+    <string name="createDialog_submit">Creare</string>
+    <string name="createDialog_errorMessage">Si prega di compilare tutti i campi.</string>
+    <string name="createDialog_errorTooLong">Si prega di scegliere un nome meno di 25 caratteri.</string>
+    <string-array name="createDialog_numbers">
+        <item>Tre</item>
+        <item>Quattro</item>
+        <item>Cinque</item>
+    </string-array>
+        
+    <!-- Option Dialog -->
+    <string name="optinosDialog_title">Opzioni</string>
+    <string name="optionsDialog_description">Elimina questo tipo di gioco o reimpostare l\'importo medio delle tentativi.</string>
+    <string name="optionsDialog_avgReset">Resettare Media</string>
+    <string name="optionsDialog_delete">Elimina Tipo</string>
+    <string name="optionsDialog_cancel">Annullare</string>
+    
+    <!-- Game Activity -->
+    <string name="game_colorErrorMessage">Si prega di scegliere un colore per primo.</string>
+    <string name="game_guessErrorMessage">Si prega di fare una voce completa.</string>
+    <string name="game_win">VINTO!</string>
+    <string name="game_guessButton">entrare</string>
+    
+    <!-- Win Dialog -->
+    <string name="winDialog_title">Hai Vinto!</string>
+    <string name="winDialog_messageStart">Avete indovinato la combinazione giusta dopo</string>
+    <string name="winDialog_messageEnd">tentativi.</string>
+    <string name="winDialog_description">Controllare la propria analisi di gioco, o tornare al menu principale per giocare di nuovo. È possibile premere retro per tornare al menu dopo aver visualizzato.</string>
+    <string name="winDialog_analysis">Vedi Analisi</string>
+    <string name="winDialog_mainMenu">Menu Principale</string>
+        
+</resources>

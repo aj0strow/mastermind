@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <style name="main_menu_container">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+    
+    <style name="main_menu_grouping">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    
+    <style name="main_menu_avg_text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    
+    <style name="main_menu_startnew_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">7</item>
+        <item name="android:height">70dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    
+    <style name="main_menu_resume_button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>    
+                
+    <style name="game_textview" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+        
+</resources>

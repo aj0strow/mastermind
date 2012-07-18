@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Portuguese Version -->
+
+<resources>
+
+    <!-- Universal Strings -->
+    <string name="app_name">Master Mind</string>
+    <string name="developer_credit">AJ, Jacob, 2012</string>
+    <string name="shared_preferences">MastermindSharedPreferences</string>
+    
+    <!-- Main Menu Activity -->
+    <string name="ad_loading">Loading Anúncio...</string>
+    <string name="avg_na">Média = nada</string>
+    <string name="avg">Média</string>
+    <string name="resume">Retomar</string>
+    <string name="main_menu_button">Novo Tipo (+)</string>
+    
+    <!-- Preliminary Types Names -->
+    <string name="easy">Principiante</string>
+    <string name="medium">Original</string>
+    <string name="hard">Difícil</string>
+            
+    <!-- Create New Dialog -->
+    <string name="createDialog_title">Novo Tipo</string>
+    <string name="createDialog_name">Nome:</string>
+    <string name="createDialog_holes">Buracos:</string>
+    <string name="createDialog_colors">Cores:</string>
+    <string name="createDialog_submit">Criar</string>
+    <string name="createDialog_errorMessage">Por favor, preencha todos os campos.</string>
+    <string name="createDialog_errorTooLong">Por favor, escolha um nome de menos de 25 caracteres.</string>
+    <string-array name="createDialog_numbers">
+        <item>Três</item>
+        <item>Quatro</item>
+        <item>Cinco</item>
+    </string-array>
+        
+    <!-- Option Dialog -->
+    <string name="optinosDialog_title">Opções</string>
+    <string name="optionsDialog_description">Excluir este tipo de jogo ou redefinir a quantidade média de palpites.</string>
+    <string name="optionsDialog_avgReset">Redefinir Média</string>
+    <string name="optionsDialog_delete">Excluir Tipo</string>
+    <string name="optionsDialog_cancel">Cancelar</string>
+    
+    <!-- Game Activity -->
+    <string name="game_colorErrorMessage">Por favor, escolha uma cor em primeiro lugar.</string>
+    <string name="game_guessErrorMessage">Por favor, faça um palpite completa.</string>
+    <string name="game_win">GANHE!</string>
+    <string name="game_guessButton">adivinhar</string>
+    
+    <!-- Win Dialog -->
+    <string name="winDialog_title">Você Ganha!</string>
+    <string name="winDialog_messageStart">Você adivinhou a combinação correta depois de</string>
+    <string name="winDialog_messageEnd">tentativas.</string>
+    <string name="winDialog_description">Olhe para a análise do jogo, ou retornar ao menu principal para jogar novamente. Você pode pressionar de volta para voltar ao menu depois que você terminar de ver.</string>
+    <string name="winDialog_analysis">Veja Análise</string>
+    <string name="winDialog_mainMenu">Menu Principal</string>
+        
+</resources>
